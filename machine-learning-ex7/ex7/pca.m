@@ -21,8 +21,7 @@ S = zeros(n);
 %
 sigma=1/m*X'*X;
 [U, S, x] = svd(sigma);
-%U=u(:,1);
-%for i=1:
+
 
 
 
